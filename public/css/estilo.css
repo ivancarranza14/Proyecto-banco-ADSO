@@ -1,0 +1,97 @@
+/* Estilo basico y centralizado para Banco ADSO (HTML5 + CSS3 simple,
+   sin frameworks ni librerias JS, ver requisitos tecnicos seccion 5). */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #1f2933;
+}
+
+header.sitio {
+    background-color: #123a5e;
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+}
+
+header.sitio h1 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+main.contenido {
+    max-width: 640px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #c7ccd1;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #123a5e;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0d2c47;
+}
+
+.mensaje-error {
+    background-color: #fdecea;
+    color: #93211b;
+    border: 1px solid #f5c2be;
+    border-radius: 4px;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.mensaje-exito {
+    background-color: #e6f4ea;
+    color: #1e4620;
+    border: 1px solid #b7dfc0;
+    border-radius: 4px;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #e1e5e9;
+}
